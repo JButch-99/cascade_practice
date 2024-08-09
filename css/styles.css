@@ -1,0 +1,23 @@
+.new {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 20%;
+  height: auto;
+  border: ridge 5px grey;
+}
+
+img.dog {
+  width: 75%;
+  height: auto;
+  border: solid 3px blue;
+}
+
+img.cat {
+  width: 75%;
+  height: auto;
+  border:solid 3px red;
+}
+
+p.title {
+  text-align: center;
+}
