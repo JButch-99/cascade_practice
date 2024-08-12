@@ -1,23 +1,58 @@
-.new {
+h1 {
+  text-align: center;
+}
+
+body {
+  background: black;
+  color: white;
+  
+}
+
+ul {
   margin-top: 20px;
   margin-bottom: 20px;
   width: 20%;
   height: auto;
+  font-size: 17px;
+  font-family:sans-serif;
+}
+
+ul.eli {
   border: ridge 5px grey;
+  background-color: darkslategrey;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: .5px;
+  color: white;
+}
+
+ul.sherry {
+  border: solid 5px lightgrey;
+  background-color: grey;
+  
 }
 
 img.dog {
-  width: 75%;
+  width: 85%;
   height: auto;
-  border: solid 3px blue;
+  border: ridge 2px blue;
 }
 
-img.cat {
-  width: 75%;
-  height: auto;
-  border:solid 3px red;
+.leftsidebar {
+  float: left;
 }
 
-p.title {
+.rightsidebar {
+  float: right;
+}
+
+.head {
   text-align: center;
+  padding: 10px;
+  padding-right: 60px;
+}
+
+.info {
+  font-size: 25px;
+  font-family: monospace;
+  text-align: left;
 }
