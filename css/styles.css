@@ -3,9 +3,9 @@ h1 {
 }
 
 body {
-  background: black;
+  background: radial-gradient(red, green, blue), linear-gradient(blue, green, red);
+  background-blend-mode:color-dodge;
   color: white;
-  
 }
 
 ul {
@@ -15,20 +15,29 @@ ul {
   height: auto;
   font-size: 17px;
   font-family:sans-serif;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: .75px;
+  list-style-type:none;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+  width: 200px;
+  border-radius: 30px;
 }
 
 ul.eli {
-  border: ridge 5px grey;
+  border: ridge 2px grey;
   background-color: darkslategrey;
-  -webkit-text-stroke-color: black;
-  -webkit-text-stroke-width: .5px;
-  color: white;
 }
 
 ul.sherry {
-  border: ridge 5px lightgrey;
-  background-color: grey;
-  
+  border: ridge 2px lightgrey;
+  background-color: darkolivegreen;
+}
+
+ul.david {
+  border: ridge 2px darkgrey;
+  background-color:slateblue;
 }
 
 img.dog {
@@ -39,9 +48,13 @@ img.cat {
   border: groove 2px red;
 }
 
+img.bunny {
+  border: double 2px purple;
+}
+
 img {
   width: 85%;
-  height: auto;
+  height: 85%;
 }
 
 .leftsidebar {
@@ -54,14 +67,40 @@ img {
   float: right;
 }
 
+.title {
+  text-align: center;
+  border: solid grey 5px;
+  background-color: slateblue;
+  border-radius: 12px;
+  font-size: 30px;
+  font-family:fantasy;
+  color: black;
+  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-width: .25px;
+}
+
 .head {
   text-align: center;
-  padding: 10px;
-  padding-right: 60px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 30px;
+  border: solid grey 3px;
+  background-color: black;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 1px;
 }
 
 .info {
   font-size: 25px;
   font-family: monospace;
-  text-align: left;
+}
+
+a.adopt {
+  font-family:monospace;
+  font-size: 24px;
+  color: black;
+  text-decoration: none;
+  border: solid silver 3px;
+  border-radius: 10px;
+  background-color: grey;
 }
