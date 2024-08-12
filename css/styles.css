@@ -26,19 +26,28 @@ ul.eli {
 }
 
 ul.sherry {
-  border: solid 5px lightgrey;
+  border: ridge 5px lightgrey;
   background-color: grey;
   
 }
 
 img.dog {
+  border: ridge 2px blue;
+}
+
+img.cat {
+  border: groove 2px red;
+}
+
+img {
   width: 85%;
   height: auto;
-  border: ridge 2px blue;
 }
 
 .leftsidebar {
   float: left;
+  display:block;
+  box-sizing:border-box;
 }
 
 .rightsidebar {
