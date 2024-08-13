@@ -30,7 +30,7 @@ li.about {
   font-size: 20px;
   padding-bottom: 20px;
   border: solid silver 3px;
-  border-radius: 12px;
+  border-radius: 15px;
   background-color: gold;
   font-family:cursive;
   height: auto;
@@ -75,6 +75,7 @@ ul.about_us {
   border: solid black 2px;
   background-color: darkolivegreen;
   font-size: 25.25px;
+  padding-bottom: 22px;
 }
 
 img.dog {
@@ -146,7 +147,6 @@ a {
   font-family: monospace;
 }
 
-
 .link {
   background-color: grey;
   border: solid black 4px;
@@ -154,5 +154,11 @@ a {
   font-size: 20px;
   text-align: left;
   -webkit-text-stroke-stroke: 3px;
-  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-color: rgb(185, 81, 81);
+}
+
+a.link {
+  color: red;
+  border: none;
+  font-size: 15px;
 }
