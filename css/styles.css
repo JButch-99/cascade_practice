@@ -1,11 +1,39 @@
 h1 {
   text-align: center;
+  font-size: 50px;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 2px;
+  border: ridge darkgrey 10px;
+  background-color: slategray;
+  font-family:fantasy;
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+  text-decoration: underline solid 3px;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 3px;
 }
 
 body {
-  background: radial-gradient(red, green, blue), linear-gradient(blue, green, red);
-  background-blend-mode:color-dodge;
+  background: radial-gradient(black, darkgrey, grey, lightgrey, white), url(https://images.pexels.com/photos/406014/pexels-photo-406014.jpeg?cs=srgb&dl=pexels-lum3n-44775-406014.jpg&fm=jpg);
+  background-repeat: repeat;
+  background-blend-mode:overlay;
   color: white;
+  background-attachment:fixed;
+  background-position: center;
+}
+
+li.about {
+  color: black;
+  font-size: 20px;
+  padding-bottom: 20px;
+  border: solid silver 3px;
+  border-radius: 12px;
+  background-color: gold;
+  font-family:cursive;
+  height: auto;
 }
 
 ul {
@@ -23,6 +51,9 @@ ul {
   text-align: center;
   width: 200px;
   border-radius: 30px;
+  box-sizing:border-box;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 ul.eli {
@@ -38,6 +69,12 @@ ul.sherry {
 ul.david {
   border: ridge 2px darkgrey;
   background-color:slateblue;
+}
+
+ul.about_us {
+  border: solid black 2px;
+  background-color: darkolivegreen;
+  font-size: 25.25px;
 }
 
 img.dog {
@@ -56,6 +93,20 @@ img {
   width: 85%;
   height: 85%;
 }
+
+a.adopt {
+  font-family:monospace;
+  font-size: 24px;
+  color: black;
+  border: solid silver 3px;
+  border-radius: 10px;
+  background-color: grey;
+}
+
+a {
+  text-decoration: none;
+}
+
 
 .leftsidebar {
   float: left;
@@ -95,12 +146,13 @@ img {
   font-family: monospace;
 }
 
-a.adopt {
-  font-family:monospace;
-  font-size: 24px;
-  color: black;
-  text-decoration: none;
-  border: solid silver 3px;
-  border-radius: 10px;
+
+.link {
   background-color: grey;
+  border: solid black 4px;
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: left;
+  -webkit-text-stroke-stroke: 3px;
+  -webkit-text-stroke-color: white;
 }
